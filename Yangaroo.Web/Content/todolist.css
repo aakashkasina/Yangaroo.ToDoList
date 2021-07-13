@@ -1,0 +1,70 @@
+﻿.gray-bg {
+    background-color: #f0f0f0;
+    padding-bottom: 15px;
+}
+
+li {
+    list-style: none;
+    padding: 15px 15px;
+    background-color: #fff;
+    border: 1px solid #DADADA;
+    border-top: none;
+    /* box-shadow: 0 2px 8px rgba(0,0,0,.16); */
+    border-radius: 2px;
+}
+
+    li:first-child {
+        border: 1px solid #DADADA;
+    }
+
+ul {
+    padding-bottom: 30px;
+}
+
+.title-head {
+    padding-left: 40px;
+}
+
+.add-task {
+    /*padding: 40px;*/
+    margin-left: 25px;
+    margin-top: 30px;
+    /*border-top: 1px solid lightgray;*/
+}
+
+button[type=submit] {
+    float: right;
+    background-color: #337AB8;
+    color: #FFFFFF;
+}
+
+.control-label {
+    padding-left: 50px;
+    padding-right: 50px;
+    float: left;
+}
+
+.pdl-30 {
+    padding-left: 30px;
+}
+
+.form-group label {
+    max-width: 20%;
+    float: left;
+}
+
+.form-group input {
+    max-width: 81%;
+    float: left;
+}
+
+hr {
+    display: block;
+    overflow: hidden;
+    margin-left: 40px;
+    background-color: #DADADA;
+}
+
+.form-horizontal {
+    margin-top: 40px;
+}

@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title To Do List</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div class="container body-content">
+        @RenderBody()
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js")
+    @Scripts.Render("~/bundles/bootstrap")
+    @*custom styles and scripts*@
+
+    @Styles.Render("~/Content/todolist.css")
+    @Scripts.Render("~/Content/todolist.js")
+    @*<script type="text/JavaScript" src="@Url.Content( "~/Content/todolist.js" )"></script>*@
+
+
+    @RenderSection("scripts", required: false)
+</body>
+</html>

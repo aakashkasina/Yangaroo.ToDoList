@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yangaroo.Web", "Yangaroo.Web\Yangaroo.Web.csproj", "{D93191C0-7057-414A-A83E-360D2F5E9F8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D93191C0-7057-414A-A83E-360D2F5E9F8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D93191C0-7057-414A-A83E-360D2F5E9F8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D93191C0-7057-414A-A83E-360D2F5E9F8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D93191C0-7057-414A-A83E-360D2F5E9F8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0823A8DE-AC5B-4391-B299-4E8D72B14FFF}
+	EndGlobalSection
+EndGlobal
